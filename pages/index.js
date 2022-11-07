@@ -42,7 +42,7 @@ function Home() {
           </h1>
 
           <div className='flex justify-around'>
-              {[2,3,4].map((value, index) => (
+              {[2,3,4,5].map((value, index) => (
                 <Option box_count={value} key={index} onClick={value => handleClick(value)}/>
               ))}
             </div>
